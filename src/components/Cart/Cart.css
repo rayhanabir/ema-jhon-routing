@@ -1,0 +1,9 @@
+.cart-card{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 10px 10px 8px 10px #888888;
+    padding: 10px;
+}
