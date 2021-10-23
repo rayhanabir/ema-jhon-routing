@@ -14,12 +14,16 @@ const useCart = products =>{
                     //set quantity
                     const quantity = savedCart[key];
                     addedProduct.quantity = quantity;
-                    storedCart.push(quantity)
+                    storedCart.push(addedProduct)
                 }
             }
             setCart(storedCart)
         }
     },[products])
-    return [cart];
+    return [cart, setCart];
 }
 export default useCart;
+
+
+
+

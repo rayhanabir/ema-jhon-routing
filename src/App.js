@@ -9,9 +9,9 @@ import Shop from './components/Shop/Shop';
 function App() {
   return (
     <div>
-      <Header></Header>
+     
       <BrowserRouter>
-
+      <Header></Header>
       <Switch>
         <Route path="/shop">
           <Shop></Shop>
